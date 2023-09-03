@@ -87,3 +87,32 @@ html{
     display: flex;
     justify-content: center;
 }
+
+.cherry-gif{
+    width: 493px;
+height: 481px;
+transform: rotate(-18.617deg);
+flex-shrink: 0;
+}
+
+#cherry-gif-wrapper{
+    position: relative;
+left: 600px;
+top: -1000px;
+object-fit: cover;
+z-index: 200;
+}
+.cherry-gif-2{
+    width: 493px;
+height: 481px;
+transform: rotate(18.617deg);
+flex-shrink: 0;
+}
+
+#cherry-gif-wrapper-2{
+    position: relative;
+left: -200px;
+top:-950px;
+object-fit: cover;
+z-index: -200;
+}
