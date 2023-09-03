@@ -1,0 +1,89 @@
+:root{
+
+    --primary: #FEFBF4;
+    --secondary: #690202;
+  --bebas: 'Bebas Neue', sans-serif;
+  --neonderthaw: 'Neonderthaw', cursive;
+  --neue-montreal:'PP Neue Montreal', sans-serif;
+                                                
+  background-color: var(--primary) ;
+  
+
+}
+/* font-family: var(--bebas);
+font-family: var(--neonderthaw);
+font-family: 'PP Neue Montreal', sans-serif;
+*/
+
+html{
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+.did,
+.say-that {
+    font-family: var(--bebas);
+    color: var(--secondary);
+    font-size: 300px;
+    font-weight: 400;
+  
+    }
+
+#say-that-wrapper{
+    margin-top: -15%;
+   
+}
+
+.lana{
+    font-family: var(--neonderthaw);
+    color: var(--secondary);
+    font-size: 350px;
+    font-weight: 550;
+    -webkit-text-stroke-width: 3.5px;
+    -webkit-text-stroke-color: var(--primary);
+    z-index: +100;
+}
+
+#lana-wrapper{
+    margin-top: -30%;
+    position: relative;
+    z-index: +100;
+}
+
+
+.or{
+    font-family: var(--neue-montreal);
+    color: var(--secondary);
+    font-size: 30px;
+    text-align: right;
+
+}
+
+#or-wrapper{
+    padding-right: 20%;
+    margin-top: -5%;
+}
+
+#start{
+    background-color: var(--secondary);
+    height: 106px;
+    width: 500px;
+    border-radius: 100px;
+    border-style: none;
+    color: var(--primary);
+    font-family:var(--neue-montreal) ;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#start:hover{
+    box-shadow: 20px -10px 100px var(--secondary);
+}
+
+#start-wrapper{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: -10%;
+    display: flex;
+    justify-content: center;
+}
