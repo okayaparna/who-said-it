@@ -1,7 +1,7 @@
 :root{
 
     --primary: #FEFBF4;
-    --secondary: #690202;
+    --secondary: #A9372C;
   --bebas: 'Bebas Neue', sans-serif;
   --neonderthaw: 'Neonderthaw', cursive;
   --neue-montreal:'PP Neue Montreal', sans-serif;
@@ -97,22 +97,8 @@ flex-shrink: 0;
 
 #cherry-gif-wrapper{
     position: relative;
-left: 600px;
+left: 670px;
 top: -1000px;
-object-fit: cover;
-z-index: 200;
-}
-.cherry-gif-2{
-    width: 493px;
-height: 481px;
-transform: rotate(18.617deg);
-flex-shrink: 0;
-}
-
-#cherry-gif-wrapper-2{
-    position: relative;
-left: -200px;
-top:-950px;
 object-fit: cover;
 z-index: -200;
 }
