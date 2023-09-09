@@ -42,8 +42,12 @@ html{
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: var(--primary);
     z-index: +100;
+
 }
 
+.lana:hover{
+    text-shadow: 2px -1px 10px var(--secondary);
+}
 #lana-wrapper{
     margin-top: -30%;
     position: relative;
