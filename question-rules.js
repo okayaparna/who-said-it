@@ -19,7 +19,7 @@ const Questions = [{
 },
 {
 	// q: "What is the capital of Gujarat",
-	a: [{ text: "Surat", isCorrect: false },
+	a: [{ text: "If you're not drinkin', then you're not playing", isCorrect: false },
 	{ text: "We both know that it's not fashionable to love me", isCorrect: false },
 	{ text: "There are times when you must get on your knees and pray, but not today", isCorrect: true },
 	{ text: "Life is beautiful, but you don't have a clue", isCorrect: false }
