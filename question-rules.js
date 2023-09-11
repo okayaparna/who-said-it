@@ -1,7 +1,7 @@
 // Questions that will be asked
 const Questions = [{
 	// q: "What did Aparna say?",
-	a: [{ text: "there are times when you must get on your knees and pray, but not today", isCorrect: true },
+	a: [{ text: "Time will always be on my side", isCorrect: true },
 	{ text: "I'm tired of feeling like I'm f***ing crazy", isCorrect: false },
 	{ text: "He hit me and it felt like a kiss", isCorrect: false },
 	{ text: "Money is the anthem, of success", isCorrect: false }
@@ -10,19 +10,19 @@ const Questions = [{
 },
 {
 	// q: "What is the capital of Thailand?",
-	a: [{ text: "Lampang", isCorrect: false, isSelected: false },
-	{ text: "Phuket", isCorrect: false },
-	{ text: "Ayutthaya", isCorrect: false },
-	{ text: "Bangkok", isCorrect: true }
+	a: [{ text: "But you are unfixable, I can't break through your world", isCorrect: false, isSelected: false },
+	{ text: "But I lost myself when I lost you", isCorrect: false },
+	{ text: "There's something in the wind, I can feel it blowing in", isCorrect: false },
+	{ text: "In my garden he's a dead plant", isCorrect: true }
 	]
 
 },
 {
 	// q: "What is the capital of Gujarat",
 	a: [{ text: "Surat", isCorrect: false },
-	{ text: "Vadodara", isCorrect: false },
-	{ text: "Gandhinagar", isCorrect: true },
-	{ text: "Rajkot", isCorrect: false }
+	{ text: "We both know that it's not fashionable to love me", isCorrect: false },
+	{ text: "There are times when you must get on your knees and pray, but not today", isCorrect: true },
+	{ text: "Life is beautiful, but you don't have a clue", isCorrect: false }
 	]
 
 }
